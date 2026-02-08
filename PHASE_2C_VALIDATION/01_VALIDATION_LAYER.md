@@ -3,7 +3,6 @@
 ## PURPOSE
 No decisions are made here.
 No actions are taken here.
-This layer only validates coherence of the system state.
 
 ---
 
@@ -16,10 +15,5 @@ This layer only validates coherence of the system state.
 
 ---
 
-## PASS CRITERIA
-This layer passes if:
-- All prior phases are internally consistent
-- Every transition is ledgered
-- System state can be explained in under 30 seconds
-- No execution capability exists at this layer
-
+If the system state cannot be explained clearly,
+it is not valid.
